@@ -11,7 +11,7 @@ int print_perc(char *buff_dest, va_list arg, int buff_count)
 {
 	char c = va_arg(arg, int);
 
-	// reassigned due to unexpected behaviour
+	//reassigned due to unexpected behaviour
 	c = '%';
 
 	buff_dest[buff_count] = c;
