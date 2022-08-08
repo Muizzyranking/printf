@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_R13 - substitute %R by argument number in rot13
+ * parse_R13 - substitute %R by argument number in rot13
  * @buff_dest: string to change
  * @arg: va_list char to change
  * @buff_count: index of dst where the R of %R is
